@@ -21,6 +21,6 @@ void main() {
 
   test('change(360,350) = null', () {
     final change = calculateChangeWithDenominations(360, 350);
-    expect(change == null, true);
+    expect(eq(change, []), true);
   });
 }

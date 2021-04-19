@@ -4,6 +4,7 @@ import 'package:newproject/functions.dart';
 import 'test_basis.dart';
 
 void main() {
+  // Das ist ein test
   test('change is not empty', () {
     final change = calculateChangeWithDenominations(360, 500);
     expect(change.isNotEmpty, true);
